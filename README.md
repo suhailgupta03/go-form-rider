@@ -5,10 +5,12 @@ Simple multipart form request creator.
 To use with google sheets, set using the steps explained [html-form-to-google-sheet](https://github.com/levinunnink/html-form-to-google-sheet)
 and then can be integrated with [thunderbyte](https://github.com/suhailgupta03/thunderbyte) or used as a separate utility to upload the form data
 
+# Install
 ```shell
-go get github.com/suhailgupta03/go-form-rider@latest
+go get -u github.com/suhailgupta03/go-form-rider@latest
 ```
 
+# Example
 ```go
 	type formData struct {
 		Email string
